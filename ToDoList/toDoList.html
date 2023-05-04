@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="toDoList.css">
+        <title>To Do List</title>
+    </head>
+
+    <body>
+        <h1>To Do List</h1>
+        
+        <section class="todo-container">
+            <section class="label-container">
+                <div class="title-container">
+                    <h2 id="date"></h2>
+                    <p id="tasks"></p>
+                </div>
+
+                <button onclick="addTask()" class="btn-add"></button> 
+            </section>
+
+            <fieldset class="task-list"></fieldset>
+
+            <input type="text" id="task" placeholder="Enter a task here...">
+        </section>
+
+        <script src="toDoList.js"></script>
+    </body>
+</html>
