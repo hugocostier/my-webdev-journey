@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculatrice</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+
+    <body>        
+        <section class="main-container">
+            <div class="input-container">
+                <div class="input" id="input">0</div>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-operator top" onclick="clearInput()">C</button>
+                <button class="btn btn-operator top" onclick="deleteLast()">CE</button>
+                <button class="btn btn-operator top" onclick="percent()">%</button>
+                <button class="btn btn-operator right" onclick="addOperator('/')">&divide;</button>
+
+                <button class="btn btn-number" onclick="addNumber('7')">7</button>
+                <button class="btn btn-number" onclick="addNumber('8')">8</button>
+                <button class="btn btn-number" onclick="addNumber('9')">9</button>
+                <button class="btn btn-operator right" onclick="addOperator('*')">&times;</button>
+
+                <button class="btn btn-number" onclick="addNumber('4')">4</button>
+                <button class="btn btn-number" onclick="addNumber('5')">5</button>
+                <button class="btn btn-number" onclick="addNumber('6')">6</button>
+                <button class="btn btn-operator right" onclick="addOperator('-')">&minus;</button>
+
+                <button class="btn btn-number" onclick="addNumber('1')">1</button>
+                <button class="btn btn-number" onclick="addNumber('2')">2</button>
+                <button class="btn btn-number" onclick="addNumber('3')">3</button>
+                <button class="btn btn-operator right" onclick="addOperator('+')">+</button>
+
+                <button class="btn btn-number zero" onclick="addNumber('0')">0</button>
+                <button class="btn btn-number" onclick="addNumber('.')">,</button>
+                <button class="btn btn-operator right equal" onclick="equalTo()">=</button>
+            </div>
+        </section>
+        <script src="calculator.js"></script>
+    </body>
+</html>
