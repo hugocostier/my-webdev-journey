@@ -13,5 +13,6 @@ Last update: 22/05/2023
 | 003 | [Mental Calculation Quizz](003%20-%20Mental%20Calculation%20Quizz) | [Live Demo](https://codepen.io/HugoWebDev/pen/BaqGdLq) |
 | 004 | [CSS Effects](004%20-%20CSS%20Effects)                             | [Live Demo](https://codepen.io/HugoWebDev/pen/VwEqqMb) |
 | 005 | [Infinite Loader - CSS Only](005%20-%20Infinite%20Loader)          | [Live Demo](https://codepen.io/HugoWebDev/pen/mdzaoyd) |
+| 006 | [Detect Key Pressed](006%20-%20Key%20Pressed)                      | [Live Demo](https://codepen.io/HugoWebDev/pen/LYgqZRa) |
 
 By Hugo Costier
