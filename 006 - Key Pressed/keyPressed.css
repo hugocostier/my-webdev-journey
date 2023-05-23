@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-container, .inner-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.main-container {
+    width: calc(100vw - 40%); 
+    height: 360px; 
+    margin-top: calc(50vh - 150px); 
+    background: linear-gradient(to left
+    , orangered, orange); 
+    border-radius: 20px; 
+}
+
+.inner-container {
+    width: calc(100% - 100px); 
+    height: 300px;  
+    background-color: white; 
+    border-radius: 10px; 
+}
+
+.main-display {
+    display: flex; 
+    flex-direction: column; 
+}
+
+#key-code, #key {
+    color: orangered; 
+    font-size: 3em; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+#key-code {
+    border: 5px solid orangered; 
+    padding: 16px; 
+    border-radius: 50%; 
+}
+
+.details { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    width: 100%; 
+}
+
+.details > p {
+    text-align: center; 
+    color: grey; 
+    font-size: 1.2em;
+}
+
+.details > p:nth-child(2)::before {
+    content: " "; 
+    position: absolute; 
+    width: 2px;
+    height: calc(1em + 6px);
+    background-color: lightgrey;
+    left: 50%;
+}
